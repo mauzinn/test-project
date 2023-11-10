@@ -1,5 +1,5 @@
 import express from 'express'
-const server = express()
+const server: express.Express = express()
 import { Router } from './routes/routes'
 
 

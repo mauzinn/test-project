@@ -2,7 +2,7 @@ require('dotenv').config()
 
 import { server } from './server/server'
 import express from 'express'
-const app = express()
+const app: express.Express = express()
 
 
 //Configurations

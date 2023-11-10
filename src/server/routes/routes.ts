@@ -1,5 +1,5 @@
 import express from 'express'
-const Router = express.Router()
+const Router: express.Router = express.Router()
 import { Account } from '../controllers'
 
 

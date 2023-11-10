@@ -37,7 +37,7 @@ export class DATABASE_ACTIONS {
     }
 
     Delete(id: number) {
-        const index = DB.findIndex(account => account.id == id)
+        const index: number = DB.findIndex(account => account.id == id)
 
         DB.splice(index, 1)
     }

@@ -7,7 +7,7 @@ import { DATABASE_ACTIONS } from "../../database"
         export const Delete: RequestHandler = async(req, res) => {
             const { id } = req.body
 
-            const Account = new DATABASE_ACTIONS('N/A', 'N/A', 'N/A')
+            const Account: DATABASE_ACTIONS = new DATABASE_ACTIONS('N/A', 'N/A', 'N/A')
 
             Account.Delete(id)
 

@@ -5,7 +5,7 @@ import { DATABASE_ACTIONS } from "../../database"
 //Middleware
     //Read
         export const Read: RequestHandler = async(req, res) => {
-            const Account = new DATABASE_ACTIONS('N/A', 'N/A', 'N/A')
+            const Account: DATABASE_ACTIONS = new DATABASE_ACTIONS('N/A', 'N/A', 'N/A')
             
             return res.status(201).json({
                 result: true,
